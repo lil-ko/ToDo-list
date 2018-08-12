@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+ 	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="todo.css">
+  
+  <title>TODO</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<span>TO-DO LIST</span>
+			<i id="plus" class="fas fa-plus"></i>
+		</div>
+		<div class="list">
+		<!--	<div id="addNew" class="add_new hidden">Add New Todo</div>  -->
+			<input type="text" id="addNew" class="add_new hidden" placeholder="Add New Todo" />
+			<ul class="striped-list">
+				<li>
+					<div class="item">
+						<button class="hidden"><i class="far fa-trash-alt"></i></button>
+						<span class="item-name">Buy Robes</span>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<button class="hidden"><i class="far fa-trash-alt"></i></button>
+						<span class="item-name">Feed Hedwig</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+  <script src="todo.js"></script>
+</html>
